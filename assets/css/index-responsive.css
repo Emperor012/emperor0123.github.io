@@ -342,9 +342,13 @@
         margin: 40px 20px;
     }
 
-    
+    /* footer */
+    .banner-addition-address .box-promo-title h1{
+        font-size: 2em;
+    }
 
     /* dinning room */
+
     /* catalog by room */
 
     /* sofa-category */

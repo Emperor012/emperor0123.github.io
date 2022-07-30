@@ -203,7 +203,8 @@ body .container{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);;
+    background-color: white;
+    list-style-type: none;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -213,7 +214,7 @@ body .container{
   .sidebar a {
     padding: 8px 8px 8px 16px;
     font-size: 18px;
-    color: white;
+    color: #ccc;
     display: block;
     transition: 0.3s;
   }
@@ -253,7 +254,12 @@ body .container{
    }
 
   .sidebar .nav-link{
-      color: white;
+      color: rgb(39, 31, 31);
+
+      
+      padding:20px 0 20px 60px;
+
+      border-top: 1px solid #ececec;
   }
 
   .sidebar li{
@@ -270,16 +276,18 @@ body .container{
   .sidebar .svg-inline--fa {
     position: absolute;
     right: 24px;
-    bottom: 12px;
     font-size: 16px;
     /* transform: translateY(-50%) rotate(-180deg); */
 
   }
 
   .sidebar ul li a{
-      padding-left: 60px;
+      padding-left: 84px;
 
       font-size: 16px;
+
+      
+      color: rgb(39, 31, 31);
   }
 
   .sidebar a:hover{
@@ -1134,6 +1142,8 @@ body .container{
     margin-top: 40px;
     padding: 4px;
     font-family: mont;
+
+    line-height: 48px;
 }
 
 .breadcrumb-item.active {
